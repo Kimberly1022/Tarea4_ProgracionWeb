@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Caso</title>
+</head>
+
+<body>
+    <h1>Completa los siguientes datos para registrar un caso</h1>
+    
+    <div class="row">
+        <form>
+            <fieldset>
+                
+                <legend>Registrar Caso</legend>
+                <legend>Fecha</legend>
+                <input type="number" class="form-control" id="fecha" />
+                <br />
+
+                <legend>Titulo</legend>
+                <input type="text" class="form-control" id="titulo" />
+                <br>
+
+                <legend>Tipo de caso</legend>
+                <select name="tipo de caso" id="tipo de caso" >
+                    <option value="r">Robo</option>
+                    <option value="h">Homicidio</option>
+                    <option value="a">Atraco</option>
+                </select>
+                <br>
+
+                <legend>Descripcion</legend>
+                <input type="text" class="form-control" id="descripcion" />
+
+                <legend>Link del post de instagram</legend>
+                <input type="url" class="form-control" id="link" />
+
+                <legend>Lugar donde sucede</legend>
+                <input type="text" class="form-control" id="lugar" />
+
+                <legend>Latitud y Longitud(Ubicación)</legend>
+                <input type="number" class="form-control" id="lat y log" />
+
+                <legend>Número de muertos</legend>
+                <input type="number" class="form-control" id="muertos" />
+
+                <legend>Numero de heridos</legend>
+                <input type="number" class="form-control" id="heridos" />
+
+
+                <button type="button" id="guardar"  class="btn btn-primary">GUARDAR</button>
+            </fieldset>
+        </form>
+    </div>
+    <input type="button" value="Volver atrás" onClick="history.go(-1);">
+
+</div>
+</body>
+</html>
